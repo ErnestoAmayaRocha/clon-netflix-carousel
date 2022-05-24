@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="icon" href="../img/favicon.png" type="image/png">
+    <title>Registro de usuarios</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            <a href="../index.html" class="logotipo"><img src="../img/net.png" alt=""></a>
+            <nav>
+                <a href="../index.html" class="activo">Inicio</a>
+                <a href="#"></a>
+                <a href="usuario.html">Usuarios</a>
+                <a href="listas_peliculas.html">Mi lista</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="cont">
+        <h3 class="tit">¿Quién está viendo ahora?</h3>
+        <img class="avatar" src="../img/avatar.jpg" alt="">
+
+        <div class="dato">
+            <input type="text" id="dato">
+        </div>
+
+        <div class="btns">
+            <button class="btnnetflix" onclick="agregar()">AGREGAR </button>
+            <button class="btnnetflix" onclick="eliminar()">ELIMINAR </button>
+        </div>
+
+        <div id="contenedor2" class="contenedoruser">
+
+        </div>
+    </div>
+
+
+    <script src="../js/listas.js"></script>
+</body>
+
+</html>

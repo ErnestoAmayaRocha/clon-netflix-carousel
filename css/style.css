@@ -1,0 +1,54 @@
+
+.banner {
+    width: 100%;
+    padding: 5rem 3rem;
+    text-align: center;
+    background: url("../img/fondo.jpg");
+    background-size: auto;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+
+.linea{
+    border-top: 5px solid black;
+    margin: 0em 10em ;
+    margin-bottom: 40px;
+}
+
+h3 {
+    top: -100em;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    padding: 2em 2em;
+    text-align: center;  
+    justify-content: center;
+    align-items: center;   
+}
+
+.acciones {
+    display: grid;
+}
+
+#operacion {
+    padding: 1em 2em;
+    top: -2em;
+    margin: 0.5em -1em ;    
+}
+
+#respuesta {
+    margin: 0.5em -1em ;
+    padding: .5em 5em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #11273a;
+}
+
+.btn {
+    margin: 5px;
+}
+
